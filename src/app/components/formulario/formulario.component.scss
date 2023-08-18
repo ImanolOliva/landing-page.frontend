@@ -1,0 +1,20 @@
+/* Estilos para el mensaje de campos vacíos */
+.empty-fields-message {
+    color: green; /* Cambia este valor al color verde que deseas */
+    font-size: 14px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior */
+  }
+  
+  .thank-you-container {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra el contenedor */
+    width: 100%; /* Ancho ajustable */
+    max-width: 600px; /* Ancho máximo para que no sea demasiado ancho */
+    z-index: 2; /* Asegura que se muestre encima del formulario */
+    
+  }
+
+
+  

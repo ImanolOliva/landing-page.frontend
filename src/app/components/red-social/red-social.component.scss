@@ -1,0 +1,22 @@
+.image-container {
+  overflow: hidden;
+}
+
+.moveable-image {
+  transition: transform 0.5s ease, filter 0.3s ease;
+  border-radius: 8px;
+}
+
+.move-up {
+  transform: translateY(-10%);
+  filter: brightness(1.3);
+}
+
+/* Ajusta la animación para dispositivos móviles */
+@media (max-width: 767px) {
+  .moveable-image {
+    transition: transform 0.5s ease;
+    transform: translateX(0);
+    height: auto; /* Ajusta la altura en dispositivos móviles según tus necesidades */
+  }
+}
