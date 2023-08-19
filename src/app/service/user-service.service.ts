@@ -11,9 +11,7 @@ export class UserServiceService {
 
   apiURL : "http://localhost:8080/api";
 
-  constructor(private http:HttpClient) {
-
-  }
+  constructor(private http:HttpClient) {}
 
   
   postUser(request:User){
