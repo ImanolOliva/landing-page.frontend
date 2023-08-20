@@ -2,3 +2,27 @@
   background-color: #4CAF50; /* Cambia este valor al color verde deseado */
 }
 
+/* Estilos para el navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Estilos para el logo */
+.logoImg {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg img {
+  width: 150px; /* Ajusta el tamaño del logo pequeño */
+  height: auto;
+}
+
+/* Colocar el logo en la esquina superior izquierda */
+.logoImg {
+  margin-right: auto; /* Empuja el logo a la izquierda */
+}
+

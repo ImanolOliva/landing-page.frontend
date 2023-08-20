@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NouisliderModule } from 'ng2-nouislider';
 import { JwBootstrapSwitchNg2Module } from 'jw-bootstrap-switch-ng2';
@@ -13,8 +12,7 @@ import { RedesComponent } from './redes/redes.component';
 import { RedSocialComponent } from './red-social/red-social.component';
 import { HttpClientModule } from '@angular/common/http'; // Importa HttpClientModule
 import { ThankyouComponent } from './thankyou/thankyou.component';
-import { NavbarComponent } from 'app/shared/navbar/navbar.component';
-import { DemoComponent } from './demo/demo.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -27,7 +25,6 @@ import { DemoComponent } from './demo/demo.component';
         JwBootstrapSwitchNg2Module,
         ReactiveFormsModule,
         HttpClientModule,
-        
 
       ],
     declarations: [
@@ -38,7 +35,6 @@ import { DemoComponent } from './demo/demo.component';
         RedesComponent,
         RedSocialComponent,
         ThankyouComponent,
-        DemoComponent,
        
        
     ],
