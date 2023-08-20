@@ -14,6 +14,7 @@ import { RedSocialComponent } from './red-social/red-social.component';
 import { HttpClientModule } from '@angular/common/http'; // Importa HttpClientModule
 import { ThankyouComponent } from './thankyou/thankyou.component';
 import { NavbarComponent } from 'app/shared/navbar/navbar.component';
+import { DemoComponent } from './demo/demo.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { NavbarComponent } from 'app/shared/navbar/navbar.component';
         RedesComponent,
         RedSocialComponent,
         ThankyouComponent,
+        DemoComponent,
        
        
     ],
