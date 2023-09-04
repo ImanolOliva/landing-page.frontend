@@ -9,14 +9,16 @@ import { catchError, throwError } from 'rxjs';
 })
 export class UserServiceService {
 
-  apiURL : "http://localhost:8080/api";
+  apiURL: string  = "http://localhost:8080/api";
 
   constructor(private http:HttpClient) {}
 
   
   postUser(request:User){
-    return this.http.post(this.apiURL + '/user',request);
+    return this.http.post( this.apiURL+ '/user',request);
   }
+
+  
 
   
 }

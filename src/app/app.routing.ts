@@ -7,9 +7,9 @@ import { ComponentsComponent } from './components/components.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 
 const routes: Routes =[
-    { path: '**', redirectTo: 'index', pathMatch: 'full' },
     { path: 'index',                component: ComponentsComponent },
     {path: 'formulario', component:FormularioComponent},
+    {path:'', redirectTo:'index'}
 ];
 
 @NgModule({

@@ -6,8 +6,6 @@ import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
 
 
 @NgModule({
@@ -16,7 +14,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
         NavbarComponent,
     ],
     imports: [
-        NgbModule,
         BrowserAnimationsModule,
         FormsModule,
         RouterModule,   
